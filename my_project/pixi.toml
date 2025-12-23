@@ -1,0 +1,12 @@
+[project]
+authors = ["Aleksandar <milicoa97@gmail.com>"]
+channels = ["conda-forge"]
+name = "my-example-folder"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+dagster-dg-cli = ">=1.12.7,<2"
+dagster-webserver = ">=1.12.7,<2"
